@@ -1,0 +1,10 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+    background-color: rgb(45, 136, 106);
+
+}
