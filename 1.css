@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
+
+body{
+    background-color: rgb(109, 109, 109);
+}
+h1{color: rgb(196, 0, 0);}
+h1{background-color: rgb(80, 23, 23);}
+ p{background-color: rgb(57, 57, 212);}
