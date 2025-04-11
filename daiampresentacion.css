@@ -1,0 +1,127 @@
+.body{ 
+    margin: 0;
+    padding: 0;
+  background-color: beige;
+    background-size: cover;
+    background-repeat: no no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  
+  
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  
+    .body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .producto {
+      width: 280px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: auto;
+     text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .producto h2 {
+      font-size: 22px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .producto p {
+      color: #666;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .precio {
+      font-size: 20px;
+      color: #e74c3c;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .btn-comprar {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      
+    }
+
+    .btn-comprar:hover {
+      background-color: #2980b9;
+    }
+
+    .orden{
+      flex-direction: column;  
+    }
+
+    .uno{
+
+        margin: 40px;
+    }
+
+    .dos{
+   margin: 40px;
+
+    }
+    
+     
+    .tres{
+        margin: 40px;
+        
+        
+    }
+
+    .fondo{
+    background-color: beige;
+    margin: 150px;
+    text-align: center;
+    }
+
+
+
+    .barra-superior {
+
+    background-color: #0000008e;         /* Fondo negro */
+    color: #ffffff;                    /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    position: fixed;                /* Se mantiene arriba al hacer scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+    .catalogo{
+
+    }
+
+    
