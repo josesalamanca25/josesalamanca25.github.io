@@ -70,6 +70,9 @@
       border-radius: 5px;
       font-weight: bold;
       transition: background-color 0.3s ease;
+      border: none;
+      display: grid;
+      top: 2%;
       
     }
 
@@ -108,20 +111,183 @@
 
     .barra-superior {
 
-    background-color: #0000008e;         /* Fondo negro */
-    color: #ffffff;                    /* Texto blanco */
-    text-align: center;
-    padding: 10px;
-    font-size: 16px;
-    position: fixed;                /* Se mantiene arriba al hacer scroll */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-
-    .catalogo{
-
+      background-color: #0000008e;         /* Fondo negro */
+      color: #ffffff;                    /* Texto blanco */
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      position: fixed;                /* Se mantiene arriba al hacer scroll */
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
     }
 
     
+
+    #cart-icon {
+      position: fixed;
+      top: 10%;
+      right: 40px;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: (10px);
+      padding: 10px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    #cart-count {
+      background-color: rgb(236, 175, 244); 
+      color: white;
+      border-radius: 50%;
+      padding: 2px 6px;
+      font-size: 14px;
+      vertical-align: top;
+      margin-left: 5px;
+
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+
+    }
+
+    .modal-content {
+      background-color: white;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .close-button {
+      float: right;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+
+.add-to-cart{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline:none;
+
+display: grid;
+
+margin-left: 0%;
+height: 40px;
+width: 280px;
+
+
+}
+
+.contacto{
+bottom: 20px;
+right: 20px;
+position: fixed;
+text-align: right;
+background-attachment: fixed;
+padding: 1%;
+
+
+}
+
+.imagen{
+
+width: 20%;
+margin-right: 450px;
+
+
+} 
+
+#libro1{
+
+   
+  margin-left: 0px;
+  height: 40px;
+  width: 280px;
+      }
+   
+      #libro2{
+  
+     
+  margin-left: 0px;
+  height: 40px;
+  width: 280px;
+      }    
+  
+      #libro3{
+  
+     
+        margin-left: 0px;
+        height: 40px;
+        width: 280px;
+            }     
+            
+            
+            #libro4{
+  
+     
+              margin-left: 0px;
+              height: 40px;
+              width: 280px;
+                  }    
+  
+   #libro5{
+  
+     
+   margin-left: 0px;
+   height: 40px;
+   width: 280px;
+     }    
+  
+     #libro6{
+  
+     
+    margin-left: 0px;
+    height: 40px;
+   width: 280px;
+    }    
+  
+   #libro7{
+  
+     
+   margin-left: 0px;
+   height: 40px;
+  width: 280px;
+   }    
+  
+   #libro8{
+  
+     
+    margin-left: 0px;
+   height: 40px;
+   width: 280px;
+   }    
+  
+   #libro9{
+       
+   margin-left: 0px;
+  height: 40px;
+  width: 280px;
+   }

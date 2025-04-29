@@ -1,0 +1,10 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.highlight {
+    background-color: #00ffff;
+    color: #6e24b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

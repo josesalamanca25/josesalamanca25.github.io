@@ -1,0 +1,24 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: blueviolet;
+}
+
+.contenedor{
+background-color: aquamarine;
+width: 30%;
+margin-left: 35%;
+margin-right: 35%;
+margin-top: 10%;
+text-align: center;
+padding: 20px;
+}
+
+.tareas{
+background-color: rgb(94, 155, 234);
+width: 30%;
+margin-left: 35%;
+margin-right: 35%;
+padding: 20px;
+text-align: center;
+}
